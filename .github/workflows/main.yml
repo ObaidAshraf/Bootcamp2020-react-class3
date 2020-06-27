@@ -33,5 +33,5 @@ jobs:
       run: npm build
     
     - name: Deploy project
-      run: surge ./build bcamp2020_obaid.surge.sh --token {{ secrets.SURGE_TOKEN }}
+      run: surge ./build bcamp2020_obaid.surge.sh --token ${{ secrets.SURGE_TOKEN }}
 
