@@ -9,8 +9,8 @@ function App() {
       <header className="App-header">
         <h2><i>Weather Report</i></h2>
         <Weather city="Karachi" weather="Hot" />
-        <Weather city="Lahore" weather="Hot" />
-        <Weather city="Islamabad" weather="Mild" />
+        <Weather city="Lahore" weather="Mild" />
+        <Weather city="Islamabad" weather="Hot" />
       </header>
     </div>
   );
