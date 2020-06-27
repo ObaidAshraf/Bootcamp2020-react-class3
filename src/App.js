@@ -10,7 +10,10 @@ function App() {
         <h2><i>Weather Report</i></h2>
         <Weather city="Karachi" weather="Hot" />
         <Weather city="Lahore"  weather="Mild" />
-        <Weather city="Islamabad" weather="Hot" />
+        <Weather city="Islamabad" weather="Mild" />
+        <Weather city="Sibbi" weather="Hot" />
+        <Weather city="Rawalpindi" weather="Mild" />
+        <Weather city="Murree" weather="Cold" />
       </header>
     </div>
   );
