@@ -26,6 +26,9 @@ jobs:
       with:
         version: 12
         
+    - name: Installing all required packages
+      run: npm install
+
     - name: Installing surge
       run: npm install -g surge
     
